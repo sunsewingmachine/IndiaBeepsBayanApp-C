@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_minus"
+        android:title="Zoom In"
+        app:showAsAction="always"
+        android:icon="@android:drawable/btn_minus"/>
+
+    <item android:id="@+id/action_plus"
+        android:title="Zoom Out"
+        app:showAsAction="always"
+        android:icon="@android:drawable/btn_minus"
+        />
+
+    <item android:id="@+id/action_refresh"
+        android:title="Share"
+        />
+
+    <!-- Rate App -->
+    <item android:id="@+id/RateApp"
+        android:title="Rate App"       />
+
+    <item
+        android:id="@+id/action_Contribute"
+        android:title="@string/contribute" />
+
+
+    <!-- Help
+    <item android:id="@+id/Update"
+        android:title="Update"
+
+        />-->
+    <!--
+       <item android:id="@+id/action_reload"
+           android:title="Refesh Articles List"
+
+      />
+      <item android:id="@+id/action_search"
+             android:title="Search"
+          android:visible="false"
+
+             />
+
+    -->
+</menu>
+
+
+
+

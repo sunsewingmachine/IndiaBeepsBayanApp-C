@@ -1,0 +1,88 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_Share"
+        android:title="Share App"
+        />
+
+    <!-- Help -->
+    <item android:id="@+id/action_RateApp"
+        android:title="Rate/Update"
+        />
+
+    <item android:id="@+id/action_Update"
+        android:visible="false"
+        android:title="Update"
+        />
+
+    <item
+        android:name="Style"
+        android:id="@+id/action_Style"
+        android:title="Style...">
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" >
+
+        <item
+            android:name="Zoom In"
+            android:id="@+id/action_plus"
+            android:title="Zoom/Font +"/>
+
+
+        <item
+            android:id="@+id/action_Contribute"
+            android:title="@string/contribute" />
+
+        <!--
+            android:icon="@drawable/zoomout2
+            android:icon="@drawable/zoomin2"
+        -->
+
+        <item
+            android:name="Zoom Out"
+            android:id="@+id/action_minus"
+            android:title="Zoom/Font -"
+            />
+
+        <item android:id="@+id/action_myalign"
+            android:title="Alignment"
+            />
+        <item android:id="@+id/action_Bold"
+            android:title="Bold"
+            />
+
+    </menu>
+
+    </item>
+
+
+    <item android:id="@+id/action_Search"
+        android:name="Search"
+        android:title="Search"
+        />
+
+
+    <item android:id="@+id/action_ShowBookmarks"
+        android:title="Show Bookmarks"
+        android:visible="true"
+        />
+
+
+<!--
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:visible="false"
+        />
+
+        activity_main_actions
+    <item android:id="@+id/action_reload"
+        android:title="Refesh Articles List"
+
+        />
+        -->
+
+</menu>
+
+
+
+

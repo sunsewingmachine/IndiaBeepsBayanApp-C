@@ -1,0 +1,4 @@
+#Wed Dec 16 13:59:34 IST 2020
+base.0=F\:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

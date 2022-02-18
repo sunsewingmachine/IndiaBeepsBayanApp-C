@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "77175374869",
+    "firebase_url": "https://tamil-bayan-points.firebaseio.com",
+    "project_id": "tamil-bayan-points",
+    "storage_bucket": "tamil-bayan-points.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77175374869:android:929f727048ef58cb",
+        "android_client_info": {
+          "package_name": "indiabeeps.app.bayanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77175374869-s16lnp94vk3s1pvvmpp4ng8mo03s06fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJm-6C_e70u9Sfu4RLSGbzyBgZX98cEJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

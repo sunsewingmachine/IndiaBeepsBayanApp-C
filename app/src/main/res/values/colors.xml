@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#f7f7f7</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colormymain">#34495e</color>
+    <color name="colormyback">#9bd64848</color>
+    <color name="pressed_color">#f72e2e</color>
+    <color name="default_color">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="theme_orange">#cd9a3b</color>
+    <color name="colorPrevNext">#717171</color>
+
+
+</resources>
