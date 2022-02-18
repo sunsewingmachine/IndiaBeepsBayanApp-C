@@ -53,7 +53,6 @@ class PaymentActivity : AppCompatActivity() , PurchasesUpdatedListener, PaymentP
         buttonBuyProduct.setOnClickListener { initPurchaseFlow() }
         setupBillingClient()
 
-
         var pur: String;
         val sharedPreferences: SharedPreferences = this.getSharedPreferences(Splash.sMyAppOptions, Splash.MODE_PRIVATE)
         val editor:SharedPreferences.Editor =  sharedPreferences.edit()
