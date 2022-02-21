@@ -11,16 +11,22 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".HadisActivity"
+        <activity
+            android:exported="true"
+            android:name=".HadisActivity"
             android:theme="@style/AppFullScreenTheme" />
 
         <activity
+            android:exported="true"
             android:name=".payment.PaymentActivity"
             android:theme="@style/PaymentTheme" />
 
-        <activity android:name=".MainActivity" />
+        <activity
+            android:exported="true"
+            android:name=".MainActivity" />
 
         <activity
+            android:exported="true"
             android:name=".Splash"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Black.NoTitleBar">
@@ -30,14 +36,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Categories" />
-        <activity android:name=".ArticleList" />
-        <activity android:name=".AfterSplash" />
+        <activity
+            android:exported="true"
+            android:name=".Categories" />
+        <activity
+            android:exported="true"
+            android:name=".ArticleList" />
+        <activity
+            android:exported="true"
+            android:name=".AfterSplash" />
 
         <activity
+            android:exported="true"
             android:name=".BeforeRating"
             android:label="@string/title_activity_before_rating" />
         <activity
+            android:exported="true"
             android:name=".SearchList"
             android:label="Search" />
 

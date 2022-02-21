@@ -149,8 +149,8 @@ public class AfterSplash extends Activity {
 
         if (Res == 0) {
             Toast myToast = Toast.makeText(this, R.string.recommendApp, Toast.LENGTH_LONG);
-            myToast.getView().setBackgroundColor(Color.parseColor("#1747c1"));
-            myToast.getView().setPadding(20, 20, 20, 20);
+//            myToast.getView().setBackgroundColor(Color.parseColor("#1747c1"));
+//            myToast.getView().setPadding(20, 20, 20, 20);
             myToast.show();
         }
         if (opening == 5 | opening == 11 | opening == 21 | opening == 36 | opening == 52 | opening == 72 | opening == 92 | opening == 250) {

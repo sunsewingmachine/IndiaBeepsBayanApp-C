@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="indiabeeps.app.bayanapp"
-    android:versionCode="45"
-    android:versionName="4.5" >
+    android:versionCode="46"
+    android:versionName="4.6" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="29" />
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -23,16 +23,22 @@
         android:debuggable="true"
         android:icon="@mipmap/a1"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="indiabeeps.app.bayanapp.HadisActivity"
+            android:exported="true"
             android:theme="@style/AppFullScreenTheme" />
         <activity
             android:name="indiabeeps.app.bayanapp.payment.PaymentActivity"
+            android:exported="true"
             android:theme="@style/PaymentTheme" />
-        <activity android:name="indiabeeps.app.bayanapp.MainActivity" />
+        <activity
+            android:name="indiabeeps.app.bayanapp.MainActivity"
+            android:exported="true" />
         <activity
             android:name="indiabeeps.app.bayanapp.Splash"
+            android:exported="true"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
@@ -41,14 +47,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="indiabeeps.app.bayanapp.Categories" />
-        <activity android:name="indiabeeps.app.bayanapp.ArticleList" />
-        <activity android:name="indiabeeps.app.bayanapp.AfterSplash" />
+        <activity
+            android:name="indiabeeps.app.bayanapp.Categories"
+            android:exported="true" />
+        <activity
+            android:name="indiabeeps.app.bayanapp.ArticleList"
+            android:exported="true" />
+        <activity
+            android:name="indiabeeps.app.bayanapp.AfterSplash"
+            android:exported="true" />
         <activity
             android:name="indiabeeps.app.bayanapp.BeforeRating"
+            android:exported="true"
             android:label="@string/title_activity_before_rating" />
         <activity
             android:name="indiabeeps.app.bayanapp.SearchList"
+            android:exported="true"
             android:label="Search" />
 
         <service
