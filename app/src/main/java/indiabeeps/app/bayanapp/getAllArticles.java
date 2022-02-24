@@ -26,5 +26,12 @@ public class getAllArticles {
         this.modified= modified;
     }
 
+    /**
+     * @return the Article Name
+     */
+    public String getArticleName() {
+        return this.name;
+    }
+
 
 }

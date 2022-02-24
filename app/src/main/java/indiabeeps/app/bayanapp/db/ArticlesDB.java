@@ -8,11 +8,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
+import java.util.*;
+
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -337,7 +340,7 @@ public class ArticlesDB extends SQLiteOpenHelper {
         return Articles;
     }
 
-    public List<getAllArticles> getSelectedArticles(String ID) {
+    public List<getAllArticles> getSelectedArticles(String ID, String mySlug) {
         List<getAllArticles> Articles = new LinkedList<>();
         try {
             myDatabase = this.getWritableDatabase();
@@ -369,7 +372,23 @@ public class ArticlesDB extends SQLiteOpenHelper {
         } finally {
             close();
         }
+
+        // if ((mySlug.startsWith("u")  || ID == "83") && ID != "u461")
+
+        if (mySlug.startsWith("u")  || ID == "83")
+        {
+            Articles = sortArticlesByNumber(Articles);
+        }
         return Articles;
+    }
+
+
+    public List<getAllArticles> sortArticlesByNumber(List<getAllArticles> articles) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            Collections.sort(articles, Comparator.comparing(getAllArticles::getArticleName));
+        }
+
+        return articles;
     }
 
     public List<getAllArticles> getFavArticles(String ID) {

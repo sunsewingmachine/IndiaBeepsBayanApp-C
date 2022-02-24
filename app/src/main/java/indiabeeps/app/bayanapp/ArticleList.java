@@ -149,6 +149,13 @@ public class ArticleList extends Activity {
 
         String myStringId = prefs.getString("CATID", "");
         String myString = prefs.getString("CATName", "");
+        String mySlug = prefs.getString("Slug", "a");
+
+        // String s1 = "CATID: " + myStringId + ",     " +  "CATName: " + myString;
+        // Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
+        // Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
+
+
         editor.putString("isFav", "No").apply();
 
         myTV.setText(Html.fromHtml(myString));
@@ -170,8 +177,9 @@ public class ArticleList extends Activity {
             arts = getArticles.getFavArticles(myStringId);
         } else {
             editor.putString("isFav", "No").apply();
-            arts = getArticles.getSelectedArticles(myStringId);
-            GeneralFunction.Gen_itemList = getArticles.getSelectedArticles(myStringId);
+            arts = getArticles.getSelectedArticles(myStringId, mySlug);
+            // Toast.makeText(this, "mySlug: " + mySlug, Toast.LENGTH_LONG).show();
+            GeneralFunction.Gen_itemList = getArticles.getSelectedArticles(myStringId, mySlug);
         }
 
         //Toast.makeText(this, String.valueOf(arts.size()), Toast.LENGTH_LONG).show();

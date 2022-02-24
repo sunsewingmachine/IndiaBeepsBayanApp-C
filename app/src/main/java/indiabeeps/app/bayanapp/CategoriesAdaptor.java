@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -66,6 +67,7 @@ public class CategoriesAdaptor extends BaseAdapter implements View.OnClickListen
                     // PreferenceManager.getDefaultSharedPreferences(ctx).edit().putString("CATID","99999").commit();
 
                     editor.putString("CATName", itemList.get(PositionNew).name).apply();
+                    editor.putString("Slug", itemList.get(PositionNew).slug).apply();
 
                     ShowArticle_Activity();
                 }
