@@ -162,7 +162,7 @@ class PaymentActivity : AppCompatActivity() , PurchasesUpdatedListener, PaymentP
 
             val sharedPreferences: SharedPreferences = this.getSharedPreferences(Splash.sMyAppOptions, Splash.MODE_PRIVATE)
             val editor:SharedPreferences.Editor =  sharedPreferences.edit()
-            editor.putString(Splash.sWhatPurchased, purchase.sku)
+            editor.putString(Splash.sWhatPurchased, purchase.skus[0])
             editor.apply()
             editor.commit()
 
