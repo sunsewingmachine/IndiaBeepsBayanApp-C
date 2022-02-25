@@ -47,7 +47,6 @@
             android:paddingBottom="5dp"
             android:textAlignment="center"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
             android:text="@string/proceed" />
 
         <!--

@@ -11,10 +11,11 @@
         <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp-gd1/app/src/main/res/layout/activity_payment.xml" value="0.3171875" />
         <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_categories.xml" value="0.21458333333333332" />
         <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/menu/activity_main_actions_other.xml" value="0.10572916666666667" />
+        <entry key="..\:/Users/Usman/AndroidStudioProjects/IndiaBeepsBayanApp/app/src/main/res/layout/activity_payment.xml" value="0.8632707774798928" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
