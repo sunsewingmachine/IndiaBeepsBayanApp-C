@@ -47,7 +47,7 @@ class PaymentActivity : AppCompatActivity() , PurchasesUpdatedListener, PaymentP
         val layoutManager = LinearLayoutManager(this)
         layoutManager.reverseLayout = false
         mRecyclerView.setItemViewCacheSize(12)
-        mRecyclerView.setHasFixedSize(true)
+//         mRecyclerView.setHasFixedSize(true)
         mRecyclerView.isNestedScrollingEnabled = true
         mRecyclerView.layoutManager = layoutManager
         buttonBuyProduct.setOnClickListener { initPurchaseFlow() }

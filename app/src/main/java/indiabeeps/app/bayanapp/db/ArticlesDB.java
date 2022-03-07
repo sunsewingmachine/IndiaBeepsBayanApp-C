@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
+import android.widget.Toast;
+
 import java.util.*;
 
 
@@ -342,6 +344,18 @@ public class ArticlesDB extends SQLiteOpenHelper {
 
     public List<getAllArticles> getSelectedArticles(String ID, String mySlug) {
         List<getAllArticles> Articles = new LinkedList<>();
+
+        /*
+        It is for auto sorting if articles contains  N) or 0N) where N is a number
+        It works, but it can't sort thodar uraigal since it doesn't start with 1)
+        dropping this for now. but it works good.
+
+        int chks = 0;
+        Boolean[] hasNumbers = new Boolean[2]; // initialize a boolean array
+        hasNumbers[0] = false;
+        hasNumbers[1] = false;
+        */
+
         try {
             myDatabase = this.getWritableDatabase();
 
@@ -361,8 +375,15 @@ public class ArticlesDB extends SQLiteOpenHelper {
                     Article.modified = (cursor.getString(6));
                     Article.category = (cursor.getString(3));
                     Article.fav = (cursor.getString(7));
-
                     Articles.add(Article);
+
+                    /*
+                    if(chks < 2) {
+                        hasNumbers[chks]  =  DoesContainsNumberedArticles(Article.name);
+                        chks++;
+                    }
+                     */
+
                 } while (cursor.moveToNext());
                 cursor.close();
             }
@@ -373,17 +394,54 @@ public class ArticlesDB extends SQLiteOpenHelper {
             close();
         }
 
-        // if ((mySlug.startsWith("u")  || ID == "83") && ID != "u461")
 
-        if (mySlug.startsWith("u")  || ID == "83")
+        /*
+        if(hasNumbers[0] == true && hasNumbers[1] == true)
+        {
+          //   Toast toast = Toast.makeText(mContext, "Has Numbers", Toast.LENGTH_SHORT);
+            Articles = sortArticlesByNumber(Articles);
+        }
+       */
+
+        // if ((mySlug.startsWith("u")  || ID == "83") && ID != "u461")
+        /* id of
+         83  -  தொடர் உரைகள்
+         87  -  ஹதீஸ் கலை
+
+         */
+
+        if (mySlug.startsWith("u")  || ID == "83" || ID == "87")
         {
             Articles = sortArticlesByNumber(Articles);
         }
+
         return Articles;
     }
 
+     private Boolean  DoesContainsNumberedArticles(String articleName){
+
+        if (articleName == null) return false;
+        if (articleName.length() < 4) return false;
+
+        try {
+            articleName = articleName.substring(0,4);
+            // Toast toast = Toast.makeText(mContext, articleName, Toast.LENGTH_SHORT);
+
+            return ( articleName.contains("1)")  ||  articleName.startsWith("2)")  ||
+                    articleName.startsWith("3)")  ||  articleName.startsWith("4)") ||
+                    articleName.startsWith("5)")  ||  articleName.startsWith("6)") ||
+                    articleName.startsWith("7)")  ||  articleName.startsWith("8)") ||
+                    articleName.startsWith("9)")  ||  articleName.startsWith("0)") );
+        }
+        catch (Exception e) {
+                e.printStackTrace();
+        }
+
+        return false;
+     }
 
     public List<getAllArticles> sortArticlesByNumber(List<getAllArticles> articles) {
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             Collections.sort(articles, Comparator.comparing(getAllArticles::getArticleName));
         }
