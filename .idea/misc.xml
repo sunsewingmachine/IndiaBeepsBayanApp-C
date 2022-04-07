@@ -9,7 +9,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp-gd1/app/src/main/res/layout/activity_payment.xml" value="0.3171875" />
-        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_categories.xml" value="0.21458333333333332" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_article_list.xml" value="0.25" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_categories.xml" value="0.33" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_hadis.xml" value="0.25" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/category_item.xml" value="0.25" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/hadislistitem.xml" value="0.5" />
+        <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/layout/payment_product_package_list_item.xml" value="0.21296296296296297" />
         <entry key="..\:/FarFiles/Android/IndiaBeepsBayanApp/app/src/main/res/menu/activity_main_actions_other.xml" value="0.10572916666666667" />
         <entry key="..\:/Users/Usman/AndroidStudioProjects/IndiaBeepsBayanApp/app/src/main/res/layout/activity_payment.xml" value="0.8632707774798928" />
       </map>

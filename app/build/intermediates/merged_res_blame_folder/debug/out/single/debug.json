@@ -4,16 +4,16 @@
         "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\myfile.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_zoomin2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\zoomin2.png"
+        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_shake.xml.flat",
+        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\shake.xml"
     },
     {
         "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi-v9_mybtnfront.xml.flat",
         "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi-v9\\mybtnfront.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_shake.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\shake.xml"
+        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_zoomin2.png.flat",
+        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\zoomin2.png"
     },
     {
         "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoominold.png.flat",
@@ -112,12 +112,12 @@
         "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_pull_in_from_left.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\pull_in_from_left.xml"
-    },
-    {
         "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_play.png.flat",
         "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\play.png"
+    },
+    {
+        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_pull_in_from_left.xml.flat",
+        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\pull_in_from_left.xml"
     },
     {
         "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher.png.flat",
@@ -152,16 +152,16 @@
         "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\btn3.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pause.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\pause.png"
+        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoomin.png.flat",
+        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\zoomin.png"
     },
     {
         "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_play.png.flat",
         "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\play.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoomin.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\zoomin.png"
+        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pause.png.flat",
+        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\pause.png"
     },
     {
         "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_zoomin2.png.flat",

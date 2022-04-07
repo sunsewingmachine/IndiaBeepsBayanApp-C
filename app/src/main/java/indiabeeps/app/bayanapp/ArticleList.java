@@ -151,9 +151,9 @@ public class ArticleList extends Activity {
         String myString = prefs.getString("CATName", "");
         String mySlug = prefs.getString("Slug", "a");
 
-         String s1 = "CATID: " + myStringId + ",     " +  "CATName: " + myString;
-        //  Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
-        //  Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
+         // String s1 = "CATID: " + myStringId + ",     " +  "CATName: " + myString;
+         // Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
+         // Toast.makeText(getApplicationContext(), s1, Toast.LENGTH_LONG).show();
 
 
         editor.putString("isFav", "No").apply();

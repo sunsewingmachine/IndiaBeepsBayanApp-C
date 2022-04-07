@@ -45,12 +45,19 @@
                     android:inputType="number"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="150dp"
-                    android:layout_height="60dp"
+                    android:layout_height="wrap_content"
                     android:hint="hadis number"/>
 
                 <Button
-                    android:text="Open"
+                    android:text="Show"
                     android:onClick="OpenHadis"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:text="Open Browser"
+                    android:onClick="OpenInBrowser"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"/>

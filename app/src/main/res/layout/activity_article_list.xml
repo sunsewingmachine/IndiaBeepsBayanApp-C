@@ -9,6 +9,11 @@
     tools:context="indiabeeps.app.bayanapp.ArticleList"
     android:background="#ffffff">
 
+    <!-- This is the page of Articles List,
+       Not category list-->
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

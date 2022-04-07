@@ -404,15 +404,20 @@ public class ArticlesDB extends SQLiteOpenHelper {
        */
 
         // if ((mySlug.startsWith("u")  || ID == "83") && ID != "u461")
-        /* id of
-         83  -  தொடர் உரைகள்
-         87  -  ஹதீஸ் கலை
 
-         */
-
-        if (mySlug.startsWith("u")  || ID == "83" || ID == "87")
-        {
-            Articles = sortArticlesByNumber(Articles);
+        try {
+            if (        mySlug.startsWith("u")   // slug:  u**   -  all books
+                    || mySlug.equals("a103")    // slug: a103  - ஹதீஸ் கலை
+                    || mySlug.equals("b112")    // slug: b112  - தொடர் உரைகள்
+                    || mySlug.equals("a110")    // slug: a110  -  நாஸிஹ் – மன்ஸூஹ்
+                    || mySlug.equals("a104")    // slug: a104  -  இமாம்களின் வரலாறு
+            )
+            {
+                Articles = sortArticlesByNumber(Articles);
+            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
         }
 
         return Articles;
@@ -442,8 +447,13 @@ public class ArticlesDB extends SQLiteOpenHelper {
 
     public List<getAllArticles> sortArticlesByNumber(List<getAllArticles> articles) {
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            Collections.sort(articles, Comparator.comparing(getAllArticles::getArticleName));
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                Collections.sort(articles, Comparator.comparing(getAllArticles::getArticleName));
+            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
         }
 
         return articles;

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -121,6 +122,37 @@ public class HadisActivity extends AppCompatActivity {
     }
 
     int HadisPosition = 0;
+
+    public void OpenInBrowser(View view) {
+        hideKeyboardFarook();
+
+        List<String> Web = new ArrayList<>();
+        Web.add("bukhari");
+        Web.add("muslim");
+        Web.add("tirmidhi");
+        Web.add("nasaayi");
+        Web.add("nil");  // index = 4
+
+        String url = "https://quranandhadis.com/ta/";
+
+        if(HadisPosition == 4)
+        {
+            url = "https://quranandhadis.com/ta/";
+        }
+        else {
+            url = "https://quranandhadis.com/ta/" + Web.get(HadisPosition) + "-" + etHadisNo.getText();
+        }
+
+        btnContribute.setVisibility(View.INVISIBLE);
+        wb.setVisibility(View.VISIBLE);
+        layWhyAddon.setVisibility(View.INVISIBLE);
+        imgback.setVisibility(View.VISIBLE);
+        imgforward.setVisibility(View.VISIBLE);
+
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+
+        //Toast.makeText(getApplicationContext(), "Sel Index:  " + HadisPosition, Toast.LENGTH_LONG).show();
+    }
 
 
     public void OpenHadis(View view) {

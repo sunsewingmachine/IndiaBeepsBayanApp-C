@@ -310,7 +310,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             myString = myString.replaceAll("(\\\\r)", "").replaceAll("(\\\\n)", "</br>");
             //mywv.loadData(myString , "text/html; charset=UTF-8", null);
             LoadWebviewData(myString);
-        } else {
+        }
+
+        else {
+
             if (GeneralFunction.bNightMode) {
                 //Toast.makeText(this, "Night mode" + "/n" + "Set Cat Pos: " + GeneralFunction.bNightMode, Toast.LENGTH_SHORT).show();
                 //Toast.makeText(this, "Night mode", Toast.LENGTH_SHORT).show();
@@ -320,6 +323,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 DivAfter = "</div>";
                 myString = DivBefore + myString + DivAfter;
             }
+
             if (!GeneralFunction.bJummaMode) {
                 SetArabicTextSize("13");
             }
@@ -328,6 +332,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
             //mywv.loadData(myString , "text/html; charset=UTF-8", null);
             LoadWebviewData(myString);
         }
+
+
+
     }
 
     private void LoadWebviewData(String stringToLoad) {
