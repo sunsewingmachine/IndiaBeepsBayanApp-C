@@ -1,426 +1,426 @@
 [
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\menu_myfile.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\myfile.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-ldpi_star_big_on2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-ldpi/star_big_on2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_shake.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\shake.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonbluepressed.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonbluepressed.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi-v9_mybtnfront.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi-v9\\mybtnfront.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_btn_square.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/btn_square.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_zoomin2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\zoomin2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi_zoomin2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi/zoomin2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoominold.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\zoominold.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonblue.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonblue.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_star_big_on2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-ldpi\\star_big_on2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_after_splash.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_after_splash.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_actions_other.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\activity_main_actions_other.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi_zoomin2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi/zoomin2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_toptobottom.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\toptobottom.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_category_item.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/category_item.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonblack.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonblack.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_zoomout2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\zoomout2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/menu_menu_after_splash.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/menu/menu_after_splash.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_hadislistitem.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\hadislistitem.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonbluetext.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonbluetext.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_star_big_on2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/star_big_on2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonblue.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonblue.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-xhdpi_a1.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-xhdpi/a1.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_clear_24dp.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\ic_clear_24dp.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi-v11_ic_stat_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi-v11/ic_stat_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher1.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\ic_launcher1.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/menu_myfile.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/menu/myfile.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_payment.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_payment.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_ic_launcher1.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/ic_launcher1.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn4.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\btn4.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_slideoutleft.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/slideoutleft.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_a1.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-hdpi\\a1.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi-v11_ic_stat_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi-v11/ic_stat_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonbluetext.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonbluetext.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_splash.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_splash.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_arrow_back.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/arrow_back.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittextbackground.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\edittextbackground.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi_ic_action_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi/ic_action_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_share.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\share.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-ldpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_arrow_back.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\arrow_back.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_article_list.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_article_list.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_star_big_on2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\star_big_on2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi_play.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi/play.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_hold.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\hold.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi_ic_action_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi/ic_action_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonblakpressed.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonblakpressed.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/transition_activity_fade.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/transition/activity_fade.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_play.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\play.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_hadislistitem.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/hadislistitem.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_pull_in_from_left.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\pull_in_from_left.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi-v11_hadisbg.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi-v11/hadisbg.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi_play.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi/play.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_play.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\play.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_edittextbackground.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/edittextbackground.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_btn2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/btn2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_zoomout2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\zoomout2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_stay.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/stay.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_payment.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_payment.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi_zoomin2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi/zoomin2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoomout.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\zoomout.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_searched_article_list.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_searched_article_list.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn3.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\btn3.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi_play.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi/play.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoomin.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\zoomin.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonblaknormal.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonblaknormal.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_play.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\play.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi-v11_ic_stat_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi-v11/ic_stat_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pause.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\pause.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi_zoomout2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi/zoomout2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_zoomin2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi\\zoomin2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_shake.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/shake.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_actions.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\activity_main_actions.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonnormal.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonnormal.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_ic_search_24dp.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/ic_search_24dp.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonnormal.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonnormal.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-hdpi_a1.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-hdpi/a1.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_pause.gif.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\pause.gif"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi_pause.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi/pause.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_play.gif.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\play.gif"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_logo.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/logo.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search_24dp.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\ic_search_24dp.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_zoomoutold.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/zoomoutold.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_zoomoutold.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\zoomoutold.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi_zoomout2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi/zoomout2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_zoomout2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\zoomout2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi_pause.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi/pause.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_before_rating.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_before_rating.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonpressed.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonpressed.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_pause.gif.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/pause.gif"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_arrow_forward.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\arrow_forward.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_star_big_on.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/star_big_on.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_pause.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi\\pause.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_hs.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/hs.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi-v11_hadisbg.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi-v11\\hadisbg.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_main.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonbluepressed.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonbluepressed.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi_zoomout2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi/zoomout2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_searched_article_list.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_searched_article_list.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttontext.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttontext.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonblack.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonblack.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_pull_out_to_left.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/pull_out_to_left.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_a1.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-xhdpi\\a1.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_cycle_7.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\cycle_7.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi-v11_ic_stat_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi-v11/ic_stat_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybutton.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybutton.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_btn4.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/btn4.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_pull_out_to_left.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\pull_out_to_left.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_share.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/share.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonblaknormal.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonblaknormal.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_payment_product_package_list_item.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/payment_product_package_list_item.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_cycle_7.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/cycle_7.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_a1.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-mdpi\\a1.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi_play.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi/play.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_zoomin2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\zoomin2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_arrow_forward.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/arrow_forward.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttontext.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttontext.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonbluenormal.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonbluenormal.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi-v11_ic_stat_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi-v11\\ic_stat_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_zoomout.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/zoomout.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_star_big_on.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-ldpi\\star_big_on.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/menu_activity_main_actions.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/menu/activity_main_actions.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_books.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\books.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi/ic_action_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_categories.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_categories.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi-v9_mybtnfront.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi-v9/mybtnfront.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mybuttonbluenormal.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\mybuttonbluenormal.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/menu_menu_categories_page.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/menu/menu_categories_page.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-xxxhdpi_a1.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-xxxhdpi/a1.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi_zoomin2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi/zoomin2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_hs.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\hs.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybutton.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybutton.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_payment_product_package_list_item.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\payment_product_package_list_item.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_categories.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_categories.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_zoomin2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\zoomin2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_ic_clear_24dp.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/ic_clear_24dp.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi-v11_ic_stat_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi-v11\\ic_stat_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi_ic_action_name.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi/ic_action_name.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_booksiconcopy.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\booksiconcopy.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonblakpressed.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonblakpressed.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_btn3.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/btn3.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_article_list.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_article_list.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_star_big_on.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\star_big_on.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/transition_activity_slide.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/transition/activity_slide.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_play.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi\\play.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi_zoomout2.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi/zoomout2.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_hadis.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_hadis.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hadis.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_hadis.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/menu_menu_after_splash2.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/menu/menu_after_splash2.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi-v11_ic_stat_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi-v11\\ic_stat_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-xxhdpi_a1.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-xxhdpi/a1.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_category_item.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\category_item.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_toptobottom.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/toptobottom.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_after_splash2.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\menu_after_splash2.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\transition_activity_slide.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\transition\\activity_slide.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_booksiconcopy.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/booksiconcopy.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_a1.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-xxhdpi\\a1.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-mdpi_a1.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-mdpi/a1.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_categories_page.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\menu_categories_page.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\transition_activity_fade.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\transition\\activity_fade.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_mybuttonpressed.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/mybuttonpressed.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_pause.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi\\pause.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-ldpi_star_big_on.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-ldpi/star_big_on.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi-v11_ic_stat_name.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-hdpi-v11\\ic_stat_name.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_play.gif.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/play.gif"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_slideoutleft.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\slideoutleft.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_zoomin.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/zoomin.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_after_splash.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\menu\\menu_after_splash.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_zoominold.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/zoominold.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\anim_stay.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\anim\\stay.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-mdpi_pause.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-mdpi/pause.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_pause.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-mdpi\\pause.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/menu_activity_main_actions_other.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/menu/activity_main_actions_other.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_after_splash.xml.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\layout\\activity_after_splash.xml"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_hold.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/hold.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_square.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\btn_square.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable-hdpi_pause.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable-hdpi/pause.png"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable\\btn2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/layout_activity_before_rating.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/layout/activity_before_rating.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_zoomout2.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\drawable-xxhdpi\\zoomout2.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/anim_pull_in_from_left.xml.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/anim/pull_in_from_left.xml"
     },
     {
-        "merged": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_a1.png.flat",
-        "source": "F:\\FarFiles\\Android\\IndiaBeepsBayanApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\a1.png"
+        "merged": "indiabeeps.app.bayanapp-merged_res-25:/drawable_books.png.flat",
+        "source": "indiabeeps.app.bayanapp-main-27:/drawable/books.png"
     }
 ]

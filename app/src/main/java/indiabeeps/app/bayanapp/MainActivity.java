@@ -306,6 +306,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
             NewString = NewString.replace(b.getString("SearchTerm",""),"<mark>"+b.getString("SearchTerm","")+"</mark>");
             mywv.loadData(NewString , "text/html; charset=UTF-8", null); */
 
+
+            if (GeneralFunction.bNightMode) {
+                //Toast.makeText(this, "Night mode" + "/n" + "Set Cat Pos: " + GeneralFunction.bNightMode, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Night mode", Toast.LENGTH_SHORT).show();
+                myString = myString.replace(sColorRed, sColorBlack);
+                myString = myString.replace(sColorBlack, sColorGrey);
+                DivBefore = "<div style=\"color: " + sColorGrey + " !important;\">";
+                DivAfter = "</div>";
+                myString = DivBefore + myString + DivAfter;
+            }
+
+
             myString = myString.replace(b.getString("SearchTerm", ""), "<mark>" + b.getString("SearchTerm", "") + "</mark>");
             myString = myString.replaceAll("(\\\\r)", "").replaceAll("(\\\\n)", "</br>");
             //mywv.loadData(myString , "text/html; charset=UTF-8", null);

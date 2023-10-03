@@ -406,7 +406,7 @@ public class ArticlesDB extends SQLiteOpenHelper {
         // if ((mySlug.startsWith("u")  || ID == "83") && ID != "u461")
 
         try {
-            if (        mySlug.startsWith("u")   // slug:  u**   -  all books
+            if (       mySlug.startsWith("u")   // slug:  u**   -  all books
                     || mySlug.equals("a103")    // slug: a103  - ஹதீஸ் கலை
                     || mySlug.equals("b112")    // slug: b112  - தொடர் உரைகள்
                     || mySlug.equals("a110")    // slug: a110  -  நாஸிஹ் – மன்ஸூஹ்
@@ -414,6 +414,20 @@ public class ArticlesDB extends SQLiteOpenHelper {
             )
             {
                 Articles = sortArticlesByNumber(Articles);
+            }
+            else{
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+                   boolean munnaiExists = Articles.stream().anyMatch(x -> x.name.equals("முன்னுரை"));
+                    if (munnaiExists) {
+                        getAllArticles artMunnurai = Articles.stream()
+                                            .filter(o -> o.name.equals("முன்னுரை"))
+                                            .findFirst()
+                                            .get();
+                        Articles.remove(artMunnurai);
+                        Articles.add(0, artMunnurai);
+                    }
+
+                }
             }
         }
         catch (Exception e) {
@@ -423,7 +437,7 @@ public class ArticlesDB extends SQLiteOpenHelper {
         return Articles;
     }
 
-     private Boolean  DoesContainsNumberedArticles(String articleName){
+    private Boolean  DoesContainsNumberedArticles(String articleName){
 
         if (articleName == null) return false;
         if (articleName.length() < 4) return false;

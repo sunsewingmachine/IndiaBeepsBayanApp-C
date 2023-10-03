@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="indiabeeps.app.bayanapp"
-    android:versionCode="47"
-    android:versionName="4.7" >
+    android:versionCode="50"
+    android:versionName="5.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -24,7 +24,6 @@
         android:debuggable="true"
         android:icon="@mipmap/a1"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="indiabeeps.app.bayanapp.HadisActivity"
