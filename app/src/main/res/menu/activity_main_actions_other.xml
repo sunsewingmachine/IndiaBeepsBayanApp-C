@@ -1,0 +1,103 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_speed_plus"
+        android:name="Speed +"
+        android:icon="@drawable/zoomin2"
+        android:showAsAction="always"
+        android:title="Speed +" />
+
+    <item
+        android:id="@+id/action_speed_minus"
+        android:name="Speed -"
+        android:icon="@drawable/zoomout2"
+        android:showAsAction="always"
+        android:title="Speed -" />
+
+    <item
+        android:id="@+id/action_play"
+        android:name="Play"
+        android:icon="@drawable/play"
+        android:showAsAction="always"
+        android:title="Play" />
+
+    <item
+        android:id="@+id/action_pause"
+        android:name="Pause"
+        android:icon="@drawable/pause"
+        android:showAsAction="always"
+        android:title="Pause"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_zoom_plus"
+        android:name="Font +"
+        android:title="Zoom/Font +" />
+
+    <item
+        android:id="@+id/action_zoom_minus"
+        android:name="Font -"
+        android:title="Zoom/Font -" />
+
+    <item
+        android:id="@+id/action_Share"
+        android:title="Share"
+        android:visible="false" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_help"
+        android:title="Rate App"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/Theme"
+        android:title="Change Theme" />
+
+    <item
+        android:id="@+id/miControlBox"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Control box" />
+
+    <item
+        android:id="@+id/miSmallScreen"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Small Screen" />
+
+    <item
+        android:id="@+id/miNightmode"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Night mode" />
+
+
+    <item
+        android:id="@+id/miJummamode"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Jumma mode" />
+
+
+    <item
+        android:id="@+id/Fscreen"
+        android:title="View FullScreen" />
+
+    <item
+        android:id="@+id/FscreenRun"
+        android:title="Run FullScreen" />
+
+    <item
+        android:id="@+id/BookmarkArticle"
+        android:title="Bookmark Article"
+
+        />
+    <!--
+       <item android:id="@+id/action_search"
+       android:title="Search"
+           />
+       -->
+
+</menu>
+

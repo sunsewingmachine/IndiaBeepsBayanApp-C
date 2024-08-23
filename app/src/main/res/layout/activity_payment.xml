@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:background="#D6D6D6"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:id="@+id/txtPurchased"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonBuyProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="5dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="5dp"
+            android:text="@string/proceed"
+            android:textAlignment="center" />
+
+        <!--
+        <ScrollView android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:layout_margin="20dp"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+            <TextView
+                android:id="@+id/txtWhyAddon"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/whyaddon"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal" />
+        </ScrollView>
+        -->
+
+
+        <WebView
+            android:id="@+id/webViewContribute"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:layerType="software"
+            android:visibility="visible"></WebView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+

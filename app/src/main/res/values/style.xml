@@ -1,0 +1,92 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/button_dark_normal</item>
+        <item name="colorAccent">@color/button_dark_normal</item>
+        <item name="colorControlNormal">@color/colormymain</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryLight</item>
+        <item name="colorControlActivated">@color/colorControlActivatedLight</item>
+        <item name="colorControlHighlight">@color/colorControlHighlightLight</item>
+        <item name="android:windowBackground">@color/windowBackgroundLight</item>
+        <item name="listDividerColor">@color/listDividerColorLight</item>
+        <item name="listBackground">@color/listBackgroundLight</item>
+        <item name="fontcolour">@color/listBackgroundDark</item>
+
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="DarkAppTheme" parent="android:Theme.DeviceDefault">
+        <!-- Customize your dark theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkModeDark</item>
+        <item name="colorAccent">@color/colorAccentDarkMode</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryDark</item>
+        <item name="colorControlNormal">@color/colorControlNormalDark</item>
+        <item name="colorControlActivated">@color/colorControlActivatedDark</item>
+        <item name="colorControlHighlight">@color/colorControlHighlightDark</item>
+        <item name="android:windowBackground">@color/windowBackgroundDark</item>
+        <item name="android:navigationBarColor">@color/navigationBarColorDark</item>
+        <item name="android:statusBarColor">@color/statusBarColorDark</item>
+        <item name="listDividerColor">@color/listDividerColorDark</item>
+        <item name="listBackground">@color/listBackgroundDark</item>
+        <item name="fontcolour">@color/listBackgroundLight</item>
+
+    </style>
+
+
+    <style name="PaymentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+
+    </style>
+
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="CKButtonCapture" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:textColor">@drawable/mybuttontext</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="CKButtonBlueTwo" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:textColor">@drawable/mybuttontext</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">60dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="CKButtonBlue" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/mybuttonblue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/mybuttonbluetext</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+</resources>

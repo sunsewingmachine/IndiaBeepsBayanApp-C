@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_before_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="indiabeeps.app.bayanapp.BeforeRating"
+    android:background="@drawable/mybuttonpressed">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:baselineAligned="false"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/BalligAnni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:paddingBottom="15sp" />
+
+        <TextView
+            android:text="@string/BeforeRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewBeforeRating"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="89dp">
+
+            <Button
+                android:text="Share the app"
+                android:id="@+id/butShare"
+                android:elevation="0dp"
+                android:background="@drawable/mybuttonblue"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textViewBeforeRating"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:linksClickable="false"
+                android:onClick="ShareThisApp"
+                android:foregroundGravity="bottom"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="5dp"
+                android:layout_marginRight="7dp" />
+
+            <Button
+                android:text="Update / Rate"
+                android:id="@+id/button"
+                android:elevation="0dp"
+                android:background="@drawable/mybuttonblue"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textViewBeforeRating"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:linksClickable="false"
+                android:onClick="gotoPlayStore"
+                android:foregroundGravity="bottom"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="7dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

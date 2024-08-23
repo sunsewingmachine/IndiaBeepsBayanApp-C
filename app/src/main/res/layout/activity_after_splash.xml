@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:weightSum="50"
+    tools:context="indiabeeps.app.bayanapp.AfterSplash">
+
+    <Button
+        android:id="@+id/cmd1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/mybuttonblue"
+        android:onClick="Cat1"
+        android:text="முக்கிய குறிப்புகள்"
+        android:textColor="?attr/fontcolour"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cmd2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/mybuttonblue"
+        android:onClick="Cat2"
+        android:text="பயான் குறிப்புகள்"
+        android:textColor="?attr/fontcolour"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/cmd3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/mybuttonblue"
+        android:onClick="Cat3"
+        android:text="கேள்வி பதில்"
+        android:textColor="?attr/fontcolour"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cmd4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/mybuttonblue"
+        android:onClick="Cat4"
+        android:text="நூல்கள்"
+        android:textColor="?attr/fontcolour"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cmdhadis"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/mybuttonblue"
+        android:onClick="CatHadis"
+        android:text="ஹதீஸ் தரம்"
+        android:textColor="?attr/fontcolour"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/cmd5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mybuttonblue"
+            android:onClick="Cat5"
+            android:text="Bookmarks"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/cmd6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mybuttonblue"
+            android:onClick="Cat5"
+            android:text="Search"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>

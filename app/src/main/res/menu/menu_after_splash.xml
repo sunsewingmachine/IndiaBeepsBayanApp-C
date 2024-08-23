@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="indiabeeps.app.bayanapp.AfterSplash">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/action_Contribute"
+        android:title="@string/contribute" />
+
+</menu>

@@ -1,0 +1,7 @@
+<!-- res/values/attrs.xml -->
+<resources>
+    <!-- Define custom attributes for ListView -->
+    <attr name="listDividerColor" format="color" />
+    <attr name="listBackground" format="color" />
+    <attr name="fontcolour" format="color" />
+</resources>

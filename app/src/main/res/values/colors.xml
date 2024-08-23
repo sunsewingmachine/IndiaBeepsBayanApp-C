@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme colors -->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#f7f7f7</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colormymain">#34495e</color>
+    <color name="colormyback">#9bd64848</color>
+    <color name="pressed_color">#f72e2e</color>
+    <color name="default_color">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="theme_orange">#cd9a3b</color>
+    <color name="colorPrevNext">#717171</color>
+    <color name="button_blue_normal">#007BFF</color>
+    <color name="button_blue_pressed">#0056b3</color>
+    <color name="textColorPrimaryLight">#000000</color>
+    <color name="colorControlActivatedLight">#f26d40</color>
+    <color name="colorControlHighlightLight">#f26d40</color>
+    <color name="windowBackgroundLight">#FFFFFF</color>
+    <color name="listDividerColorLight">#c9d1db</color>
+    <color name="listBackgroundLight">#FFFFFF</color>
+
+    <!-- Dark theme colors -->
+    <color name="colorPrimaryDarkMode">#121212</color>
+    <color name="colorPrimaryDarkModeDark">#1C1C1C</color>
+    <color name="colorAccentDarkMode">#BB86FC</color>
+    <color name="textColorPrimaryDark">#FFFFFF</color>
+    <color name="textColorSecondaryDark">#B0B0B0</color>
+    <color name="colorControlNormalDark">#B0B0B0</color>
+    <color name="colorControlActivatedDark">#BB86FC</color>
+    <color name="colorControlHighlightDark">#BB86FC</color>
+    <color name="windowBackgroundDark">#121212</color>
+    <color name="navigationBarColorDark">#121212</color>
+    <color name="statusBarColorDark">#1C1C1C</color>
+    <color name="listDividerColorDark">#2c2c2c</color>
+    <color name="listBackgroundDark">#000000</color>
+    <color name="button_dark_normal">#1E1E1E</color>
+    <color name="button_dark_pressed">#333333</color>
+</resources>

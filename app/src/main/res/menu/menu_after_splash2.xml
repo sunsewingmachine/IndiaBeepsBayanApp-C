@@ -1,0 +1,93 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_Share"
+        android:title="Share App" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_RateApp"
+        android:title="Rate/Update" />
+
+
+    <item
+        android:id="@+id/action_Update"
+        android:title="Update"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_Style"
+        android:name="Style"
+        android:title="Style...">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item
+                android:id="@+id/action_plus"
+                android:name="Zoom In"
+                android:title="Zoom/Font +" />
+
+            <!--
+                android:icon="@drawable/zoomout2
+                android:icon="@drawable/zoomin2"
+            -->
+
+            <item
+                android:id="@+id/action_minus"
+                android:name="Zoom Out"
+                android:title="Zoom/Font -" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_LastSeen"
+        android:name="Last read"
+        android:title="Last read" />
+
+    <item
+        android:id="@+id/action_Search"
+        android:name="Search"
+        android:title="Search" />
+
+
+    <item
+        android:id="@+id/action_ShowBookmarks"
+        android:title="Show Bookmarks"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/miNightmode"
+        android:title="Night Mode"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="never"/>
+
+    <!--
+
+    <item
+        android:id="@+id/action_Contribute"
+        android:title="@string/contribute" />
+        <item android:id="@+id/action_myalign"
+            android:title="Alignment"
+            />
+        <item android:id="@+id/action_Bold"
+            android:title="Bold"
+            />
+        <item android:id="@+id/action_search"
+            android:title="Search"
+            android:visible="false"
+            />
+
+
+    activity_main_actions
+        <item android:id="@+id/action_reload"
+            android:title="Refesh Articles List"
+
+            />
+            -->
+
+</menu>
+
+
+
+
