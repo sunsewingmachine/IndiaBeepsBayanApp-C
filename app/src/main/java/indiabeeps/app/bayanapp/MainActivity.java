@@ -152,6 +152,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         myID = prefs.getString("ARTID", "");
         WebSettings settings = mywv.getSettings();
 
+        settings.setJavaScriptEnabled(true); // Enable JavaScript
+
         IsResultScreen = false;
 
         //Retrive the Global Value
@@ -352,9 +354,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             //mywv.loadData(myString , "text/html; charset=UTF-8", null);
             LoadWebviewData(myString);
         }
-
-
-
     }
 
     private void LoadWebviewData(String stringToLoad) {
@@ -365,6 +364,47 @@ public class MainActivity extends Activity implements View.OnClickListener {
             mywv.loadData(encodedHtml, "text/html; charset=UTF-8", "base64");
         }
     }
+
+    private void LoadWebviewData2Original(String stringToLoad) {
+        if (GeneralFunction.LoadDataMethod == 1) {
+            mywv.loadData(stringToLoad, "text/html; charset=UTF-8", null);
+        } else if (GeneralFunction.LoadDataMethod == 2) {
+            String encodedHtml = Base64.encodeToString(stringToLoad.getBytes(), Base64.NO_PADDING);
+            mywv.loadData(encodedHtml, "text/html; charset=UTF-8", "base64");
+        }
+    }
+
+    private void LoadWebviewData3WithExternalFiles(String stringToLoad) {
+        // Inject CSS and JS before loading the content
+        stringToLoad = injectCssAndJs(stringToLoad);
+
+        if (GeneralFunction.LoadDataMethod == 1) {
+            mywv.loadData(stringToLoad, "text/html; charset=UTF-8", null);
+        } else if (GeneralFunction.LoadDataMethod == 2) {
+            String encodedHtml = Base64.encodeToString(stringToLoad.getBytes(), Base64.NO_PADDING);
+            mywv.loadData(encodedHtml, "text/html; charset=UTF-8", "base64");
+        }
+    }
+
+
+
+    private String injectCssAndJs(String htmlContent) {
+        // CSS and JS references to be injected
+        String cssLink = "<link rel=\"stylesheet\" type=\"text/css\" href=\"file:///android_asset/quran-popup.css\">";
+        String jsScript = "<script type=\"text/javascript\" src=\"file:///android_asset/quran-popup.js\"></script>";
+
+        // Check if <head> exists, if yes inject inside it, otherwise create <head> tag
+        if (htmlContent.contains("<head>")) {
+            // Inject CSS and JS inside the <head> tag
+            htmlContent = htmlContent.replace("</head>", cssLink + jsScript + "</head>");
+        } else {
+            // If no <head>, create one and add CSS and JS at the top
+            htmlContent = "<head>" + cssLink + jsScript + "</head>" + htmlContent;
+        }
+
+        return htmlContent;
+    }
+
 
 
     private void GetScrollPosition() {
