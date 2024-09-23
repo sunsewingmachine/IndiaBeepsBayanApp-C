@@ -1,5 +1,6 @@
 package indiabeeps.app.bayanapp;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -11,12 +12,14 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
 import android.util.Base64;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -33,6 +36,13 @@ import indiabeeps.app.bayanapp.payment.PaymentActivity;
 import static indiabeeps.app.bayanapp.GeneralFunction.ScrollX;
 import static indiabeeps.app.bayanapp.GeneralFunction.ScrollY;
 import static indiabeeps.app.bayanapp.GeneralFunction.isScrollingNow;
+
+import java.io.BufferedReader;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.logging.Logger;
 
 //@SuppressLint("NewApi")
 public class MainActivity extends Activity implements View.OnClickListener {
@@ -356,15 +366,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    private void LoadWebviewData(String stringToLoad) {
-        if (GeneralFunction.LoadDataMethod == 1) {
-            mywv.loadData(stringToLoad, "text/html; charset=UTF-8", null);
-        } else if (GeneralFunction.LoadDataMethod == 2) {
-            String encodedHtml = Base64.encodeToString(stringToLoad.getBytes(), Base64.NO_PADDING);
-            mywv.loadData(encodedHtml, "text/html; charset=UTF-8", "base64");
-        }
-    }
-
     private void LoadWebviewData2Original(String stringToLoad) {
         if (GeneralFunction.LoadDataMethod == 1) {
             mywv.loadData(stringToLoad, "text/html; charset=UTF-8", null);
@@ -374,10 +375,43 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    private void LoadWebviewData3WithExternalFiles(String stringToLoad) {
-        // Inject CSS and JS before loading the content
-        stringToLoad = injectCssAndJs(stringToLoad);
+    private String injectCssAndJs(String htmlContent, String cssContent, String jsContent) {
 
+        String jquery = "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>";
+
+        // Wrap the CSS content in <style> tag
+        String cssTag = "<style>" + cssContent + "</style>";
+
+        // Wrap the JS content in <script> tag
+        String jsTag = "<script type=\"text/javascript\">" + jsContent + "</script>";
+
+        // Check if <head> exists, inject inside it. Otherwise, create one.
+        if (htmlContent.contains("<head>")) {
+            htmlContent = htmlContent.replace("</head>", cssTag + jsTag + " ");
+        } else {
+            htmlContent = "<head>" + jquery + cssTag + jsTag + "</head>" + htmlContent;
+        }
+
+        return htmlContent;
+    }
+
+    @SuppressLint("SetJavaScriptEnabled")
+    private void LoadWebviewData(String stringToLoad) {
+        // Load CSS and JS from assets folder
+        String cssContent = readAssetFileAsString("quran-popup.css");
+        String jsContent = readAssetFileAsString("quran-popup.js");
+        // Inject CSS and JS into the HTML content
+        stringToLoad = injectCssAndJs(stringToLoad, cssContent, jsContent);
+
+        WebSettings settings = mywv.getSettings();
+        settings.setJavaScriptEnabled(true);  // Enable JavaScript
+        mywv.setWebChromeClient(new WebChromeClient());
+
+        // Call the method to write to internal storage
+        // String fileName = "e3.txt";
+        // writeToInternalStorage(fileName, stringToLoad);
+
+        // Load the content into WebView
         if (GeneralFunction.LoadDataMethod == 1) {
             mywv.loadData(stringToLoad, "text/html; charset=UTF-8", null);
         } else if (GeneralFunction.LoadDataMethod == 2) {
@@ -386,25 +420,38 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-
-
-    private String injectCssAndJs(String htmlContent) {
-        // CSS and JS references to be injected
-        String cssLink = "<link rel=\"stylesheet\" type=\"text/css\" href=\"file:///android_asset/quran-popup.css\">";
-        String jsScript = "<script type=\"text/javascript\" src=\"file:///android_asset/quran-popup.js\"></script>";
-
-        // Check if <head> exists, if yes inject inside it, otherwise create <head> tag
-        if (htmlContent.contains("<head>")) {
-            // Inject CSS and JS inside the <head> tag
-            htmlContent = htmlContent.replace("</head>", cssLink + jsScript + "</head>");
-        } else {
-            // If no <head>, create one and add CSS and JS at the top
-            htmlContent = "<head>" + cssLink + jsScript + "</head>" + htmlContent;
+    private void writeToInternalStorage(String fileName, String content) {
+        FileOutputStream fos = null;
+        try {
+            // Open the file output stream
+            fos = openFileOutput(fileName, MODE_PRIVATE);  // MODE_PRIVATE means it will overwrite any existing file with the same name
+            fos.write(content.getBytes());  // Write content to the file
+            fos.close();
+            Log.d("FileWrite", "File written to internal storage successfully");
+        } catch (IOException e) {
+            e.printStackTrace();
+            Log.e("FileWrite", "Failed to write to file");
         }
-
-        return htmlContent;
     }
 
+    private String readAssetFileAsString(String fileName) {
+        try {
+            InputStream inputStream = getAssets().open(fileName);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            StringBuilder stringBuilder = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                stringBuilder.append(line);
+                stringBuilder.append("\n");  // Add new line for better formatting
+            }
+            reader.close();
+            inputStream.close();
+            return stringBuilder.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "";  // Return an empty string if file is not found
+        }
+    }
 
 
     private void GetScrollPosition() {
