@@ -12,6 +12,7 @@
     <color name="theme_orange">#cd9a3b</color>
     <color name="colorPrevNext">#717171</color>
     <color name="button_blue_normal">#007BFF</color>
+    <color name="button_blue_hadith">#0088dd</color>
     <color name="button_blue_pressed">#0056b3</color>
     <color name="textColorPrimaryLight">#000000</color>
     <color name="colorControlActivatedLight">#f26d40</color>

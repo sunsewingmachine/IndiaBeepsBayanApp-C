@@ -1,174 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HadisActivity"
-    android:background="?attr/listBackground">
+    android:paddingTop="0dp"
+    android:paddingLeft="0dp"
+    android:background="#cfdde5"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp">
 
+
+    <Button
+        android:id="@+id/btnLoadHadiss"
+        android:layout_margin="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:background="@color/button_blue_hadith"
+        android:textColor="#FFFFFF" />
+
+    <!-- Spinner and Input Box -->
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_height="match_parent"
-        android:weightSum="10"
-        android:layout_width="match_parent">
+        android:id="@+id/topRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
 
-        <LinearLayout
-            android:background="@drawable/hadisbg"
-            android:weightSum="10"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_gravity="center">
+        <Spinner
+            android:id="@+id/bookSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
-            <!-- First Row: Spinner and Open Browser Button in a Column -->
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
-
-                <Spinner
-                    android:id="@+id/hadisSpinner"
-                    android:background="#CCCCCC"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center" />
-
-                <EditText
-                    android:id="@+id/etHadisNo"
-                    android:inputType="number"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="10dp"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
-                    android:layout_height="wrap_content"
-                    android:hint="hadis number"/>
-
-            </LinearLayout>
-
-            <!-- Second Row: TextView (EditText) and Show Button in a Column -->
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
-
-                <Button
-                    android:text="Open Browser"
-                    android:onClick="OpenInBrowser"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="175dp"
-                    android:layout_height="wrap_content"/>
-
-
-                <Button
-                    android:layout_width="175dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:onClick="OpenHadis"
-                    android:text="Show" />
-            </LinearLayout>
-        </LinearLayout>
-
-        <RelativeLayout
-            android:id="@+id/aaa"
-            android:background="#E8E8E8"
-            android:layout_width="match_parent"
-            android:layout_weight="0"
-            android:layout_height="match_parent">
-
-            <WebView
-                android:id="@+id/webViewHadis"
-                android:visibility="invisible"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/transparent"
-                android:layerType="software">
-            </WebView>
-
-            <Button
-                android:text="Contribute"
-                android:id="@+id/btnContribute"
-                android:layout_centerHorizontal="true"
-                android:layout_alignBottom="@id/webViewHadis"
-                android:layout_margin="15dp"
-                android:padding="12dp"
-                android:background="@drawable/hadisbg"
-                android:textColor="@color/colorAccent"
-                android:onClick="OpenSupport"
-                android:layout_gravity="center_horizontal"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"/>
-
-            <ImageButton
-                android:id="@+id/imgback"
-                android:onClick="GoBack"
-                android:layout_alignBottom="@id/webViewHadis"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="false"
-                android:layout_centerVertical="false"
-                android:src="@drawable/arrow_back"/>
-
-            <ImageButton
-                android:id="@+id/imgforward"
-                android:color="#59FFFFFF"
-                android:onClick="GoForward"
-                android:layout_alignBottom="@id/webViewHadis"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="false"
-                android:src="@drawable/arrow_forward"/>
-
-            <LinearLayout
-                android:visibility="gone"
-                android:scrollbars="vertical"
-                android:weightSum="10"
-                android:id="@+id/layWhyAddon"
-                android:layout_centerVertical="true"
-                android:layout_gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ScrollView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="fill_parent"
-                    android:layout_margin="20dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:scrollbars="vertical"
-                    android:layout_weight="8"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/scrollView">
-
-                    <TextView
-                        android:id="@+id/txtWhyAddon"
-                        android:layout_width="match_parent"
-                        android:gravity="center"
-                        android:textSize="17sp"
-                        android:textColor="@color/colorPrimary"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginBottom="20dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/whyaddon"
-                        android:textAlignment="center"
-                        android:layout_centerVertical="true"
-                        android:layout_gravity="center" />
-
-                </ScrollView>
-
-            </LinearLayout>
-
-        </RelativeLayout>
+        <EditText
+            android:id="@+id/etHadisNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter Hadis No"
+            android:inputType="number"
+            android:imeOptions="actionDone" />
 
     </LinearLayout>
 
+    <!-- Buttons -->
+    <LinearLayout
+        android:id="@+id/buttonRow"
+        android:background="#92d4ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topRow"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnLoadHadis"
+            android:layout_margin="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/button_blue_hadith"
+            android:textColor="#FFFFFF"
+            android:text="Show Hadith" />
+
+        <Button
+            android:id="@+id/btnOpenBrowser"
+            android:layout_margin="1dp"
+            android:background="@color/button_blue_hadith"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:text="Open Chrome" />
+
+
+        <Button
+            android:id="@+id/btnOpenBrowseSearch"
+            android:background="@color/button_blue_hadith"
+            android:layout_margin="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:text="Open Search" />
+    </LinearLayout>
+
+    <!-- WebView -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonRow"
+        android:visibility="gone" />
 </RelativeLayout>
